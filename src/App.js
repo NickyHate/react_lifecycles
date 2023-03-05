@@ -1,9 +1,11 @@
+import LifecycleComponent from "./LifecycleComponent";
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <LifecycleComponent />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
